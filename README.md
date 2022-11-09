@@ -1,16 +1,11 @@
-# filechecksum
+## File Checksum
 
-A new Flutter project.
+File checksum is an old technique to verify the integrity of a file.
 
-## Getting Started
+And this repository is an Windows and Linux app that generates the MD5 and SHA hashes.
 
-This project is a starting point for a Flutter application.
+The hash of this app is: d046d6b1453e708b144ce791f745d15e087fa78fb0219bc51223ad02b5f2c1e2.
 
-A few resources to get you started if this is your first Flutter project:
+Any other hash means it was modified some way.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://user-images.githubusercontent.com/51419598/200956104-c5333af1-d813-4448-8801-4f88bc70a51b.mp4
