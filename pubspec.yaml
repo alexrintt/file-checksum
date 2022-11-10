@@ -1,5 +1,5 @@
 name: filechecksum
-description: Windows application to generate file hashes (checksum) for SHA and MD5 algorithms.
+description: Desktop application to generate file hashes (checksum) for SHA and MD5 algorithms.
 publish_to: "none"
 version: 0.1.0+1
 
