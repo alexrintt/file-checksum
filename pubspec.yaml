@@ -21,6 +21,7 @@ dev_dependencies:
     sdk: flutter
   flutter_launcher_icons: ^0.10.0
   flutter_lints: ^2.0.0
+  # Use to find required dependencies
   flutter_to_debian:
     git:
       url: https://github.com/alexrintt/flutter_to_debian

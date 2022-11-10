@@ -8,6 +8,26 @@ Take for instance the SHA-256 hash of the initial version of this app is: **d046
 
 Any other hash means it was modified some way.
 
+## Installation
+
+Currently this is app is only available for Windows and Linux.
+
+### Windows
+
+On Windows, just download the latest release on the Releases tab and open the `filechecksum.exe` inside the .rar file.
+
+### Linux
+
+1. Install dependencies:
+
+```shell
+sudo apt-get libgcrypt20 libgtk-3-0 liblz4-1 liblzma5 libstdc++6
+```
+
+2. Download the latest release `linux-arm64-v0.1.0.zip`.
+
+3. Double-click to open `filechecksum`.
+
 ## App screenshot and usage
 
 Some desktop app screenshots:
