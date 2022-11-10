@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=0.1.0
+Name=File Checksum
+GenericName=File Checksum
+Comment=Windows application to generate file hashes (checksum) for SHA and MD5 algorithms.
+Terminal=false
+Type=Application
+Categories=Utility
+Keywords=flutter;md5;sha;checksum;file;

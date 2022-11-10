@@ -19,9 +19,12 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
   flutter_launcher_icons: ^0.10.0
   flutter_lints: ^2.0.0
+  flutter_to_debian:
+    git:
+      url: https://github.com/alexrintt/flutter_to_debian
+      ref: 8da50f40825675413bf539e4a9944c47ad6cd2ac
 
 flutter:
   uses-material-design: true

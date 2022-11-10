@@ -8,7 +8,6 @@ Take for instance the SHA-256 hash of the initial version of this app is: **d046
 
 Any other hash means it was modified some way.
 
-
 ## App screenshot and usage
 
 Some desktop app screenshots:
@@ -21,6 +20,37 @@ Some desktop app screenshots:
 Video usage:
 
 https://user-images.githubusercontent.com/51419598/200956104-c5333af1-d813-4448-8801-4f88bc70a51b.mp4
+
+## Build
+
+- Windows:
+
+```shell
+flutter build windows
+```
+
+- Linux:
+
+To build for Linux (.deb package), run:
+
+```shell
+# Generate Linux package files.
+flutter build linux
+
+# Helper package to bundle the package files into a .deb bundle.
+dart pub global activate flutter_to_debian
+
+# Generate the .deb bundle.
+flutter_to_debian
+```
+
+(Optional) To find Linux dependencies:
+
+```shell
+flutter_to_debian dependencies
+```
+
+You must pack these dependencies into the `debian.yaml` file into the `depends` key separated by comma `,`.
 
 <br>
 

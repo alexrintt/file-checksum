@@ -1,0 +1,17 @@
+flutter_app:
+  command: filechecksum
+  arch: x64
+  parent: /usr/local/lib
+
+control:
+  Package: filechecksum
+  Version: 0.1.0
+  Architecture: amd64
+  Essential: no
+  Priority: optional
+  Homepage: https://github.com/alexrintt/filechecksum
+  # To find packages you depend on run:
+  # flutter_to_debian dependencies
+  Depends: libgcrypt20,libgtk-3-0,liblz4-1,liblzma5,libstdc++6
+  Maintainer: Alex Rintt <reach@alexrintt.io>
+  Description: Windows application to generate file hashes (checksum) for SHA and MD5 algorithms.
