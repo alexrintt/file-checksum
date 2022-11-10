@@ -4,10 +4,6 @@ File checksum is an old technique to verify the integrity of a file.
 
 And this repository aims to provide an GUI for Windows and Linux to generate the MD5 and SHA file hashes (checksum).
 
-Take for instance the SHA-256 hash of the initial version of this app is: **d046d6b1453e708b144ce791f745d15e087fa78fb0219bc51223ad02b5f2c1e2**.
-
-Any other hash means it was modified some way.
-
 ## Installation
 
 Currently this is app is only available for **Windows** and **Linux**.
