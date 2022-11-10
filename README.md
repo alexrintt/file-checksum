@@ -1,4 +1,4 @@
-> **Note** currently this is app is only available for **Windows** and **Linux**.
+> **Note** currently this app is only available for **Windows** and **Linux**.
 
 ## File Checksum
 
