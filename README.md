@@ -1,18 +1,16 @@
+> **Note** currently this is app is only available for **Windows** and **Linux**.
+
 ## File Checksum
 
 File checksum is an old technique to verify the integrity of a file.
 
 And this repository aims to provide an GUI for Windows and Linux to generate the MD5 and SHA file hashes (checksum).
 
-## Installation
-
-Currently this is app is only available for **Windows** and **Linux**.
-
-### Windows
+## Windows installation
 
 On Windows, just download the latest release on the **Releases** tab and open the `filechecksum.exe` file.
 
-### Linux
+## Linux installation
 
 1. Install dependencies:
 
@@ -37,27 +35,26 @@ Video usage:
 
 https://user-images.githubusercontent.com/51419598/200956104-c5333af1-d813-4448-8801-4f88bc70a51b.mp4
 
-## Build
+## Build binaries on Windows
 
-- Windows:
+Make sure you have a [configured Flutter environment for Windows](https://docs.flutter.dev/get-started/install/windows).
+
+Then you can generate the `.exe` by running:
 
 ```shell
 flutter build windows
 ```
 
-- Linux:
+The generated bundle output is: `<project-root>\build\windows\runner\Release`.
 
-To build for Linux (.deb package), run:
+## Build binaries on Linux:
+
+Make sure you have a [configured Flutter environment for Linux](https://docs.flutter.dev/get-started/install/linux).
+
+To build for Linux, run:
 
 ```shell
-# Generate Linux package files.
 flutter build linux
-
-# Helper package to bundle the package files into a .deb bundle.
-dart pub global activate flutter_to_debian
-
-# Generate the .deb bundle.
-flutter_to_debian
 ```
 
 (Optional) To find Linux dependencies:
@@ -66,7 +63,7 @@ flutter_to_debian
 flutter_to_debian dependencies
 ```
 
-You must pack these dependencies into the `debian.yaml` file into the `depends` key separated by comma `,`.
+The generated bundle output is: `<project-root>/build/linux/x64/release`.
 
 <br>
 
