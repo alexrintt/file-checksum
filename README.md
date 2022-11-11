@@ -31,8 +31,6 @@ Some desktop app screenshots:
   <kbd><img src="https://user-images.githubusercontent.com/51419598/200956761-0468db84-5191-474b-8cc5-4cb456468284.png" height="400" /></kbd>
 </p>
 
-Video usage:
-
 https://user-images.githubusercontent.com/51419598/200956104-c5333af1-d813-4448-8801-4f88bc70a51b.mp4
 
 ## Build binaries on Windows
