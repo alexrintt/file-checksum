@@ -24,7 +24,7 @@ sudo apt-get install libgcrypt20 libgtk-3-0 liblz4-1 liblzma5 libstdc++6
 
 ## App screenshot and usage
 
-Some desktop app screenshots:
+Since the Flutter framework relies on custom paiting, the appearence (GUI) looks the same on Windows and Linux.
 
 <p align="center">
   <kbd><img src="https://user-images.githubusercontent.com/51419598/200956830-d0ad75fd-c928-417a-a43a-a5aeff8e452b.png" height="400" /></kbd>
